@@ -13,8 +13,10 @@
     <div class="container-fluid">
         <main class="tm-main">
             @if ($message = Session::get('success'))
-                <div class="alert alert-success">
-                    <p>{{ $message }}</p>
+                <div class="row tm-row">
+                    <div class="alert alert-success" role="alert">
+                        {{ $message }}
+                    </div>
                 </div>
             @endif
 

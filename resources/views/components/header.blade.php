@@ -1,7 +1,7 @@
 <header class="tm-header" id="tm-header">
     <div class="tm-header-wrapper">
         <div class="tm-site-header">
-            <h1 class="text-left">Simple Blog</h1>
+            <h1 class="text-left">Laravel Course</h1>
         </div>
 
         <nav class="tm-nav" id="tm-nav">            
@@ -11,6 +11,9 @@
                 </li>
                 <li class="tm-nav-item">
                     <a href="/articles" class="tm-nav-link">Articles</a>
+                </li>
+                <li class="tm-nav-item">
+                    <a href="/cars" class="tm-nav-link">Cars</a>
                 </li>
             </ul>
         </nav>
